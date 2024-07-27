@@ -4,8 +4,8 @@ import cns_api
 
 # 获取用户账户信息
 params = {}
-print "获取用户账户信息"
-print cns_api.http_post("/api/v1/asset/userAssetInfo", cns_api.get_request_data(params))
+built-in "获取用户账户信息"
+built-in cns_api.http_post("/api/v1/asset/userAssetInfo", cns_api.get_request_data(params))
 
 
 # 下买单
@@ -16,5 +16,5 @@ params = {
     'quantity': 1,
     'amount': 0
 }
-print "下买单"
-print cns_api.http_post("/api/v1/order/buy", cns_api.get_request_data(params))
+built-in "下买单"
+built-in cns_api.http_post("/api/v1/order/buy", cns_api.get_request_data(params))
